@@ -1,0 +1,25 @@
+body {
+    font-size: 12pt;
+    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    background-color: #bbb6b6;
+    text-align: center;
+  }
+  
+  #header {
+    color: hsl(180, 100%, 25%);
+    border: 10px inset #0fe7e7;
+  }
+  
+  #main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #content {
+    color:aqua
+  }
+  
+  #footer {
+    padding-top: 250px;
+  }
+  

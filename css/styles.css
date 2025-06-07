@@ -1,14 +1,21 @@
 body {
     font-size: 12pt;
-    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-    background-color: #fdf0d5;
+    background-color: #f8f9fa;
+    background-image: url(../images/low-poly-grid-haikei.svg);
     text-align: center;
   }
   
+  
+  .inter-reg {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  }
   #header {
     width: auto;
-    color: hsl(180, 100%, 25%);
-    border: 10px inset #669bbc;
+    color: #212529;
+    border: 10px inset #212529;
   }
   
   #container {
@@ -16,8 +23,9 @@ body {
   }
   
   #sidebar {
-    border: 10px solid #003049;
+    border: 10px solid #212529;
     width: 300px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -27,7 +35,7 @@ body {
   }
   
   #content {
-    border: 10px solid #003049;
+    border: 10px solid #212529;
     width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -38,6 +46,6 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    border: 10px solid #003049;
+    border: 10px solid #212529;
   }
   

@@ -89,6 +89,24 @@ section {
   padding-bottom: 4rem;
 }
 
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+
+.hero-text { flex: 1; min-width: 0; }
+
+.hero-headshot {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--clr-border);
+  flex-shrink: 0;
+}
+
 .hero-greeting {
   font-family: var(--font-mono);
   color: var(--clr-accent2);
@@ -283,6 +301,9 @@ footer {
   .nav-links.open { display: flex; }
 
   .hero { padding-top: 4rem; }
+  .hero-inner { flex-direction: column-reverse; text-align: center; }
+  .hero-headshot { width: 160px; height: 160px; }
+  .hero-links { justify-content: center; }
 
   section { padding: 3rem 1.25rem; }
 }
